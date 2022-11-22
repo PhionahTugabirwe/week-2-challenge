@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+header {
+  justify-content: space-between;
+  display: flex;
+  padding: 1rem;
+}
+header a {
+  text-decoration: none;
+}
+.links {
+  justify-content: space-between;
+  gap: 2rem;
+  display: flex;
+}
+.logo {
+  width: 20px;
+  height: 22px;
+}
+.link {
+  gap: 2rem;
+  justify-content: space-between;
+  display: flex;
+}
+img {
+  background: linear-gradient(to bottom darkblue red);
+}
+.link a {
+  border: 1px solid blue;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  color: black;
+  padding: 15px;
+}
+.link a:hover {
+  color: aqua;
+  background: rgb(81, 81, 194);
+}
+.sign {
+  background-color: blue;
+}
+.tittle-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.h1 {
+  color: blue;
+  margin-top: 2rem;
+}
+.h2 {
+  font-size: 40px;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  color: rgb(42, 42, 112);
+  font-size: 20px;
+}
+span {
+  color: blue;
+}
+.footer a {
+  border: 1px solid blue;
+  width: 120px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 15px;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: blueviolet;
+  background: greenyellow;
+}
+.sign {
+  width: 80px;
+  height: 40px;
+  color: white;
+}
+.footer {
+  padding: 2rem;
+}
+.sales-img {
+  width: 800px;
+  height: auto;
+  padding-top: 2rem;
+  margin-left: 16rem;
+  border-radius: 20%;
+}
+.payments-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.paragraphs {
+  gap: 1rem;
+  width: 400px;
+  height: auto;
+  padding-left: 3rem;
+}
+.section-heading {
+  font-size: 40px;
+  font-family: inter;
+}
+.section-img {
+  border-radius: 20%;
+}
+.business-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+.donations-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  text-align: center;
+}
+.platforms {
+  width: 700px;
+  height: auto;
+  margin-left: 16rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 30px;
+}
+.side-image {
+  position: relative;
+}
+.image {
+  position: absolute;
+}
